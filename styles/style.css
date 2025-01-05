@@ -5,15 +5,16 @@
 }
 
 .button{
-    height: 36px;
+    vertical-align: top;
 }
+
 /* This section is for Subscribe Button */
 .subscribe-button{
     background-color: rgb(200, 0, 0);
     border: none;
     border-radius: 5px;
     color: white;
-    width: 120px;
+    padding: 9px 16px;
     margin-right: 10px;
     transition: opacity .15s;
 }
@@ -33,14 +34,17 @@
     border-radius: 5px;
     color: rgb(51, 48, 247);
     border: 1px solid rgb(75, 72, 245) ;
-    width: 60px;
+    padding: 8px 16px;
     margin-right: 10px;
-    transition: background-color .5s, opacity .5s;
+    transition: background-color .5s, color 2s;
 }
 
 .join-button:hover{
     color: white;
     background-color:rgb(25, 21, 243);
+    border: none;
+    padding: 9px 17px;
+    
 }
 
 .join-button:active{
@@ -52,8 +56,8 @@
     border: none;
     border-radius: 18px;
     color: #ffff;
-    border: 1px solid rgb(75, 72, 245) ;
-    width: 100px;
+    border: none;
+    padding: 9px 24px;
     margin-right: 10px;
     transition: background-color .5s, opacity .5s, box-shadow .3s;
     font-weight: bold;
@@ -61,6 +65,7 @@
 
 .tweet-button:hover{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .15);
+    background-color:#0959c2;
 
 }
 
